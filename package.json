@@ -1,0 +1,28 @@
+{
+  "name": "qfh-cli",
+  "version": "1.0.1",
+  "description": "Scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "qfh": "bin/qfh",
+    "qfh-add": "bin/qfh-add",
+    "qfh-delete": "bin/qfh-delete",
+    "qfh-init": "bin/qfh-init",
+    "qfh-list": "bin/qfh-list"
+  },
+  "keywords": [
+    "Scaffolding"
+  ],
+  "author": "qiufeihong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^6.5.0",
+    "ora": "^3.4.0"
+  }
+}
